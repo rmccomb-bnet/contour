@@ -55,8 +55,8 @@ The default configuration values for this chart are listed in `values.yaml`.
 | `service.internalHttpsPort`          | Service internal https port                 | 8443                              |
 | `service.protocol`                   | Service Protocol                            | TCP                               |
 | `service.loadBalancerType`           | Service Load Balancer type                  | LoadBalancer                      |
-| `rbac.create`                        | Create rbac role for contour                | yes                               |
-| `serviceAccount.create`              | Create service account for contour          | yes                               |
+| `rbac.create`                        | Create rbac role for contour                | true                              |
+| `serviceAccount.create`              | Create service account for contour          | true                              |
 | `serviceAccount.name`                | Service account name                        |                                   |
 | `hpa.create`                         | Create hpa for contour                      | no                                |
 | `hpa.minReplicas`                    | Autoscaling minimum replicaset count        | 2                                 |
